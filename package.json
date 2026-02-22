@@ -3,6 +3,10 @@
   "displayName": "EF Core Migrations",
   "description": "Visual Studio Code extension to create Entity Framework Core migrations with a wizard",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Arthurblaya/EF-Core-Migrations.git"
+  },
   "icon": "assets/logo.png",
   "engines": {
     "vscode": "^1.56.0"
