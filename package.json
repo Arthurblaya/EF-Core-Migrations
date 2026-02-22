@@ -1,0 +1,33 @@
+{
+  "name": "ef-core-migrations",
+  "displayName": "EF Core Migrations",
+  "description": "Visual Studio Code extension to create Entity Framework Core migrations with a wizard",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:efcore.addMigrationWizard"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "efcore.addMigrationWizard",
+        "title": "EF Core Migrations: Add Migration Wizard"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.5.4"
+  }
+}
