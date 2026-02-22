@@ -4,7 +4,7 @@
   "description": "Visual Studio Code extension to create Entity Framework Core migrations with a wizard",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.85.0"
+    "vscode": "^1.56.0"
   },
   "categories": [
     "Other"
@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.14.12",
-    "@types/vscode": "^1.85.0",
+    "@types/vscode": "1.56.0",
     "typescript": "^5.5.4"
   }
 }
